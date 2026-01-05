@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+langchain
+openai
+faiss-cpu
+pypdf
+python-dotenv
+mysql-connector-python
+pydantic
+langchain-openai
+langchain-text-splitters
+langchain
+langchain-openai
+langchain-text-splitters
+langchain-community
+faiss-cpu
+
