@@ -140,6 +140,7 @@ These references are **contextual**, not predictive.
 
 ---
 
+
 ### Run 
 - Activate environment  -> source venv/bin/activate
 - Atart AIP server -> uvicorn app.main:app --reload
