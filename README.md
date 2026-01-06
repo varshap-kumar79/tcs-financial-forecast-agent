@@ -140,31 +140,6 @@ These references are **contextual**, not predictive.
 
 ---
 
-### Output Format (Structured JSON)
-
-### Example response from `POST /forecast`:
-
-- ```json
-{
-  "company": "Tata Consultancy Services (TCS)",
-  "period_analyzed": "Q2 & Q3 FY25",
-  "financial_trends": {
-    "revenue_trend": "Stable growth with Q3 constant currency growth of approximately 4–5%",
-    "margin_trend": "Sequential margin improvement driven by operational efficiencies"
-  },
-  "management_outlook": "Cautiously optimistic with a strong deal pipeline exceeding $10B in TCV",
-  "risks": [
-    "Macroeconomic uncertainty",
-    "Short-term margin pressure"
-  ],
-  "opportunities": [
-    "AI-led digital transformation",
-    "Large enterprise deal wins"
-  ],
-  "forecast_summary": "TCS is expected to deliver steady performance with cautious optimism in the upcoming quarter."
-}
-
-
 ### Run 
 - Activate environment  -> source venv/bin/activate
 - Atart AIP server -> uvicorn app.main:app --reload
